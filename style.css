@@ -1,0 +1,161 @@
+#asdf{
+  background-color: RGBA(255,255,255,0);
+  width:100vw;
+  color:white;
+  position:absolute;
+  padding:0;
+  margin-left: 0 auto;
+}
+#f {
+  position:fixed;
+  background-color:white;
+  color:black;
+  text-align:center;
+}
+a:link{
+  color:black;
+}
+.sample-show-hide {
+  padding:10px;
+  background:white;
+  top:300px;
+}
+
+.sample-show-hide {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+
+.sample-show-hide.ng-hide {
+  opacity:0;
+}
+#guys {
+  float:right;
+}
+#holder {
+  bottom:0;
+  position:fixed;
+}
+  
+body{
+  padding: 0;
+  overflow: hidden;
+  width:120vw;
+  height:120vh;
+  background-color:black;
+  margin: 0;
+  text-align: center;
+}
+		@-webkit-keyframes STAR-MOVE {
+			from {
+				background-position: 5% 5%
+			}
+			to { 
+				background-position: 1300% 600%
+			}
+		}
+		
+		@-webkit-keyframes STAR-MOVE-MID {
+			from {
+				background-position: 5% 1%
+			}
+			to { 
+				background-position: 1300% 100%
+			}
+		}
+		
+		@-webkit-keyframes STAR-MOVE-REVERSE {
+			from {
+				background-position: 1300% 600%
+			}
+			to { 
+				background-position: 5% 5%
+			}
+		}
+		
+#body{
+	width:100vw;
+	height:100vh;
+	background: url(bg_s1.gif);
+  z-index:-99999;
+  pointer-events: none;
+}
+
+#vid{
+	padding-left:32%;
+	padding-top:20%;
+	line-height:100%;
+	position:fixed;
+	float:left;
+	}
+
+#video{
+	position:fixed;
+	top:30%;
+	float:left;
+	position:fixed;
+}
+.table {
+	position:fixed;
+	bottom:50px;
+	z-index:99999;
+	color:white;
+	margin:auto;
+	text-align:center;
+	font-size:12px;
+	position:fixed;
+	float:left;
+}
+
+#text{
+	color:black;
+
+}
+
+.star {
+	background: url(stars.png);
+	background-size:cover;
+  pointer-events: none;
+	width:300px;
+	height:300px;
+	float:right;
+	position:fixed;
+	bottom:45%;
+	right:45%;
+}
+
+
+
+#hihat{
+	right:200px;
+	bottom:40%;
+}
+
+#mid{
+	color:white;
+    background: url(midground.png) repeat 20% 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    -webkit-animation-name: STAR-MOVE-MID;
+    -webkit-animation-duration: 600s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+#for{
+    background: url(foreground.png) repeat 20% 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:400;
+    -webkit-animation-name: STAR-MOVE-REVERSE;
+    -webkit-animation-duration: 600s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
